@@ -46,7 +46,7 @@ const App = () => {
     if(key === '') {
       return []
     } 
-    const apiUrl = `http://openlibrary.org/search.json?q=${key}&limit=10`
+    const apiUrl = `https://openlibrary.org/search.json?q=${key}&limit=10`
     const res = await fetch(apiUrl)
     const result = await res.json()
     const docs = await result.docs
