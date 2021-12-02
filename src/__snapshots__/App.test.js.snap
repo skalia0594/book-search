@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a App 1`] = `"<div class=\\"App\\"><header><div><form><label for=\\"searchBook\\">Enter Book Title: </label><input type=\\"text\\" id=\\"searchBook\\" name=\\"searchBook\\" placeholder=\\"Search for a book\\" value=\\"\\"><button type=\\"submit\\" data-testid=\\"search\\" class=\\"button\\" data-message=\\"This is search button\\">Search</button></form></div></header><main><div><div></div><ul></ul></div></main><footer>Copyrights By Shubham Kalia (kaliashubham12@gmail.com)</footer></div>"`;
